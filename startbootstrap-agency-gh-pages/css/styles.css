@@ -642,6 +642,14 @@ progress {
   margin-left: auto;
 }
 
+.logo{
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 32px;
+}
+
 .slide{
   display: flex;
   overflow: hidden;
