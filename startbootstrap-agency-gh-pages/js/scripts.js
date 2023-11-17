@@ -8,22 +8,6 @@
 // 
 
 window.addEventListener('DOMContentLoaded', event => {
-    //header-img
-    /*'use strict';
-    const img = ["assets/img/2023素材例コピー/640x640_rect_d72a707c331535c4da2af4f1cd6001d3.jpg", "assets/img/2023素材例コピー/s_0n9b.jpg", "assets/img/2023素材例コピー/アヒージョ.jpg"];
-    let count = -1;
-    picChange();
-
-    function picChange(){
-        count++;
-        //カウントが最大になれば配列を初期値に戻すため「０」を指定
-        if(count == img.length) count = 0;
-        //画像選択
-        document.getElementById("pic").src = img[count];
-        //1sごとに実行
-        setTimeout("picChange()", 1000);
-    }*/
-
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
